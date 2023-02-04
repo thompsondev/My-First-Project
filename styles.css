@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    max-height: 450px;
+    max-width: 100%;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Baskervvile, sans-serif; 
+    background-color:  hsl(30, 38%, 92%);
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: absolute;
+    padding: 70px 0; 
+    margin: 50px; 
+  
+}
+
+.left-side {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin: -1rem;
+
+}
+
+.right-side {
+    background-color: rgb(255, 255, 255);
+    padding: 2rem;
+    margin: -1rem;
+}
+#pef {
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+    color: gray;
+}
+.gab {
+    font-size: 3rem;
+    font-family: Fraunces;
+    font-weight: 700;
+    text-align: justify;
+}
+
+.lee {
+    position: relative;
+    top: -3rem;
+    font-size: 2rem;   
+}
+
+.item {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color:  hsl(158, 36%, 37%);
+    font-size: 2rem;
+    font-family: Montserrat;
+}
+    
+.price {
+    display: inline-block;
+    margin: 2rem;
+    font-size: 1.5rem;
+    text-decoration: line-through;
+    color: gray;
+}
+
+button {
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+    background-color:  hsl(158, 36%, 37%);
+    border: none;
+    width: 60%;
+    height: 30px;
+    color: white;
+}
+
+.flora {
+    font-size: 1.5rem;
+    color: gray;
+}
+
+p {
+    font-size: 14px;
+}
+
+button {
+    display: block;
+    margin: 0;   
+} 
+
+
+    
